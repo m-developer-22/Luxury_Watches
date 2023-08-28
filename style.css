@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+    background-color: #b8755a;
+    display: flex;
+    justify-content: space-between;
+}
+#main #mleft
+{
+    width: 37.5%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+#main #mleft #box
+{
+    width: 40%;
+    height: 100%;
+    background-color: #202926;
+    border-top-right-radius: 300px; 
+    border-bottom-right-radius: 300px;
+}
+#main #mleft #rest
+{
+    width: 60%;
+    height: 100%;
+    background-color: #202926;
+}
+#main #mright
+{
+    width: 57.6%;
+    height: 100%;
+    display: flex;
+}
+#main #mright #box2
+{
+    width: 30%;
+    height: 100%;
+    background-color: #202926;
+    border-top-left-radius: 300px; 
+    border-bottom-left-radius: 300px;
+}
+#main #mright #rest2
+{
+    width: 70%;
+    height: 100%;
+    background-color: #202926;
+}
+
+#main #overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 192, 203, 0.085);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main #overlay #nav
+{
+    width: 100%;
+    height: 10vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    padding: 0 45px;
+}
+#main #overlay #nav i
+{
+    font-size: 23px;
+    color: white;
+    font-weight: 900;
+    margin-right: 40px;
+}
+#main #overlay #nav h2
+{
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    margin-right: 700px;
+}
+#main #overlay #nav a
+{
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    margin-right: 100px;
+}
+#main #overlay #nav a:hover
+{
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+.ri-menu-fill
+{
+    margin-right: 40px;
+}
+.ri-search-line
+{
+    margin-left: 100px;
+}
+
+
+
+#main #overlay #content
+{
+    width: 100%;
+    height: 80vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+#main #overlay #content #cone
+{
+    width: 28.2%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#main #overlay #content #cone h1
+{
+    color: white;
+    font-size: 70px;
+    padding-left: 15px;
+    position: relative;
+}
+#main #overlay #content #cone h1::after
+{
+    content: "";
+    width: 23%;
+    height: 5px;
+    background-color: #AC5330;
+    position: absolute;
+    left: 0;
+    top: 47%;
+}
+#main #overlay #content #cone h2
+{
+    color: white;
+    font-size: 30px;
+    padding-left: 35px;
+}
+#main #overlay #content #ctwo
+{
+    width: 25%;
+    height: 25vw;
+    border-radius: 50%;
+    background-color: #b99e89;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 35px #b99e89;
+}
+#main #overlay #content #ctwo img
+{
+    height: 110%;
+}
+#main #overlay #content #cthree
+{
+    width: 38.8%;
+    height: 25vw;
+    /* background-color: peru; */
+    display: flex;
+}
+#main #overlay #content #cthree #tleft
+{
+    height: 100%;
+    width: 20%;
+    /* background-color: greenyellow; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    padding-top: 54px;
+}
+#main #overlay #content #cthree #tleft #tlline
+{
+    width: 5px;
+    height: 60%;
+    background-color: #AC5330;
+    /* background-color: black; */
+}
+#main #overlay #content #cthree #tleft h4
+{
+    transform: rotate(-90deg);
+    /* width: 35%; */
+    font-size: 18px;
+    white-space: nowrap;
+    color: white;
+}
+#main #overlay #content #cthree #tright
+{
+    height: 100%;
+    width: 80%;
+    /* background-color: purple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main #overlay #content #cthree #tright h1
+{
+    color: white;
+    font-size: 60px;
+    font-weight: 300;
+}
+#main #overlay #content #cthree #tright h1 span
+{
+    font-weight: 600;
+}
+#main #overlay #content #cthree #tright h3
+{
+    color: white;
+    font-weight: 300;
+    font-size: 21px;
+}
+#main #overlay #content #cthree #tright button
+{
+    font-size: 17px;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+}
+#main #overlay #content #cfour
+{
+    width: 8%;
+    height: 100%;
+    /* background-color: forestgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main #overlay #content #cfour h1
+{
+    transform: rotate(-90deg);
+    font-family: 'Vast Shadow', cursive;
+    font-size: 75px;
+    color: white;
+    opacity: .3;
+    font-weight: 100;
+}
+
+
+
+
+#main #overlay #footer
+{
+    width: 100%;
+    height: 10vh;
+    /* background-color: peru; */
+    display: flex;
+}
+#main #overlay #footer i
+{
+    font-size: 23px;
+    color: white;
+}
+#main #overlay #footer #fside1
+{
+    width: 13%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#main #overlay #footer #fside2
+{
+    width: 87%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+#main #overlay #footer #fside2 i
+{
+    font-size: 35px;
+}
